@@ -1,0 +1,353 @@
+body{
+    margin:0;
+    padding:0;
+   /* background: url(yeni.jpg)  ;*/
+    background-repeat: no-repeat;
+    background-size: contain;
+   /* background-color: #50463A;*/
+   /* background-color: #F2E1A9;*/
+    background-color: #ffffff;
+    opacity: 0.9;
+    }
+a{
+    text-decoration: none;
+}
+.sayfa{
+    width: 1480px;
+    margin:auto;
+    
+}
+.siteadi a h1{
+    text-align: center;/*yazıyı ortala*/
+    margin:35px 0 0 0;
+    padding:0;
+    font-size:4em;
+    font-family: sans-serif;
+    color:#868686;
+    text-shadow: #4c4b4b -1px -1px,#0e0a0a 1px 1px;
+}
+.slogan p{
+    padding:0;
+    margin:0;
+    text-align: right;
+    padding-right: 240px;
+    color:#3376a6;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.ust-menu{
+    margin-top:26px;
+    background-color: #2e4369ea;
+}
+         
+.ust-menu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+         
+.ust-menu ul li{
+    float: left;
+    border-left:#a8c5de ;
+    border-right:#92afc8 solid 1px;
+}
+         
+.ust-menu ul li:first-child{
+    border-left:none;
+}
+         
+.ust-menu ul li:last-child{
+    border-right:none;
+}
+         
+.ust-menu ul li a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding:0 40px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color:rgb(7, 5, 5);
+}
+         
+.ust-menu ul li a:hover{
+    background: #487194;
+}
+
+ 
+.slider{
+    height: 338px;
+    text-align: center;
+}
+ 
+
+ 
+.temizle{
+    clear: both;
+}
+.orta-sol{
+    
+    width: 1080px;
+    float:left;
+}
+ 
+.kitap{
+    border-radius: 15px;
+    padding:20px ;
+    background: #9eb5e0ea;
+    margin:10px 10px 0 0;
+    /*opacity: 0.9;*/
+
+}
+ 
+.kitap-resim{
+    float:left;
+    
+    margin:0 10px 10px 0;
+}
+ 
+.kitap-baslik{
+    margin:0px;
+    font-family: sans-serif;
+    font-size: 2em;
+    color:#070a08;
+}
+ 
+.kitap-ozet{
+    margin-top:10px;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.6em;
+    color:#070a08;
+}
+ 
+.kitap-ozet a{
+    color:#0a4664;
+}
+ 
+.orta-sag{
+    float:left;
+    width: 400px;
+}
+
+.panel{
+    background: #e6e4e4;
+    margin:10px 0 10px 10px;
+}
+ 
+.panel-baslik{
+    background: #9eb5e0ea;
+}
+ 
+.panel-baslik h2{
+    margin:0px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    color:#fff;
+    font-weight: 400;
+}
+ 
+.panel-bolum .populer{
+    border-bottom:#9b9595 solid 1px;
+    padding-bottom:10px;
+    margin:0 10px 0 10px;
+}
+ 
+.panel-bolum .populer img{
+    padding:0 10px 10px 0;
+    float:left;
+    width: 90px;
+}
+ 
+.panel-bolum .populer h3{
+    color:rgb(83, 67, 67);
+    font-family: sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.alt{
+    border-top:#cecdcd solid 10px;
+    background-color: #284477;
+    padding:10px 0 50px 0;
+    }
+     
+.ortala{
+    width: 980px;
+    margin:auto;
+}
+     
+.alt-sol{
+    width: 480px;
+    float:left;
+}
+.alt-sag{
+    width: 480px;
+    float:right;
+}
+.bolum-1,.bolum-2{
+    float: left;
+    width: 230px;
+}
+.alt-sol h2,.alt-sol ul a{
+    font-family: sans-serif;
+    color:#f54147;
+}
+     
+.alt-sol ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.alt-sol ul li{
+    padding:5px 0 5px 0;
+}
+     
+.alt-sol ul a{
+    text-decoration: none;
+}
+.alt-sol .alt-menu li{
+    padding-left:20px;
+    background: url(resim/nokta.png) no-repeat 0 7px;
+}
+.alt-sol .sosyal-menu img{
+    width: 80px; 
+}
+
+.alt-sag{
+        position: relative;
+        background: #0f0f13;
+        margin-top:-10px;
+        opacity: 0.9;
+}
+     
+.alt-sag::after{
+        position: absolute;
+        content: "";
+        border-top:30px solid #8cafdd;
+        border-right:30px solid #8cafdd;
+        border-bottom:30px solid #e0e0df;
+        border-left:30px solid #e0e0df;
+        bottom:0px;
+        opacity: 0.9;
+}
+     
+.gorus-form label{
+        text-align: right;
+        float:left;
+        width: 100px;
+        padding: 5px 10px 0 0;
+        font-size: 1.2em;
+        color:#fff;
+        font-family: sans-serif;
+}
+     
+.gorus-form input[type="text"],.gorus-form textarea{
+        width: 300px;
+        padding:10px;
+        background: #ffffff;
+        border:none;
+}
+     
+.gorus-form textarea{
+        height: 150px;
+}
+     
+.gorus-form input[type="submit"]{
+        background: #ffffff;
+        float: right;
+        padding:10px;
+        border:none;
+        margin-bottom:50px;
+}
+     
+.form-satir{
+        padding:20px;
+}
+.basic-grey {
+	margin-left:auto;
+	margin-right:auto;
+    max-width: 500px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.basic-grey h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+	border: 1px solid #DADADA;
+	color: #888;
+	height: 30px;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	outline: 0 none;
+	padding: 3px 3px 3px 5px;
+	width: 70%;
+	font-size: 12px;
+	line-height:15px;
+	box-shadow: inset 0px 1px 4px #ECECEC;
+	-moz-box-shadow: inset 0px 1px 4px #ECECEC;
+	-webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea{
+	padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+	line-height: 25px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button {
+	background: #476797;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #FFF;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+	cursor: pointer;
+}
+.basic-grey .button:hover {
+    background: #476797
+}
